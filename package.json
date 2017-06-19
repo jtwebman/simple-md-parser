@@ -1,0 +1,30 @@
+{
+  "name": "simple-md-parser",
+  "version": "0.1.0",
+  "description": "Simple markdown parser",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwebman/simple-md-parser.git"
+  },
+  "keywords": [
+    "markdown",
+    "parser"
+  ],
+  "author": "JT Turner <jtwebman@gmail.com> (https://jtwebman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtwebman/simple-md-parser/issues"
+  },
+  "homepage": "https://github.com/jtwebman/simple-md-parser#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "eslint": "^4.0.0",
+    "eslint-config-google": "^0.8.0",
+    "mocha": "^3.4.2"
+  }
+}
